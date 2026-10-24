@@ -1,0 +1,69 @@
+# MoodTune - Git Ignore File
+# Copyright (c) 2026 NFS Programming
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.Python
+env/
+venv/
+ENV/
+.venv/
+.pytest_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ─── Node / Frontend ──────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.env
+frontend/.env.local
+frontend/*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ─── Build Artifacts ──────────────────────────────────────────────────────────
+build/
+dist/
+*.pyc
+*.pyo
+
+# ─── Environment & Secrets ────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.development
+*.key
+*.keystore
+*.pem
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Temp / Misc ──────────────────────────────────────────────────────────────
+*.tmp
+*.temp
+user_memory.json
+
+# ─── UI Design Source (raw design exports, not application code) ───────────────
+UI Deisgn/
+UI Design/
